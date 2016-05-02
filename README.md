@@ -1,5 +1,8 @@
-# [Bedrock](https://roots.io/bedrock/)
+# [Bedrock](https://code.thegeeks.rocks/bedrock/)
+
 [![Build Status](https://travis-ci.org/roots/bedrock.svg)](https://travis-ci.org/roots/bedrock)
+
+This is a fork from [Bedrock](https://roots.io/bedrock/) with some little improvements from me.
 
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
@@ -14,13 +17,7 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 * Autoloader for mu-plugins (use regular plugins as mu-plugins)
 * Enhanced security (separated web root and secure passwords with [wp-password-bcrypt](https://github.com/roots/wp-password-bcrypt))
 
-Use [Trellis](https://github.com/roots/trellis) for additional features:
-
-* Easy development environments with [Vagrant](http://www.vagrantup.com/)
-* Easy server provisioning with [Ansible](http://www.ansible.com/) (Ubuntu 14.04, PHP 5.6 or HHVM, MariaDB)
-* One-command deploys
-
-See a complete working example in the [roots-example-project.com repo](https://github.com/roots/roots-example-project.com).
+See a complete working example in the [jscarton's geekspress repo](https://github.com/jscarton/geekspress).
 
 ## Requirements
 
@@ -46,10 +43,7 @@ See a complete working example in the [roots-example-project.com repo](https://g
 
 ## Deploys
 
-There are two methods to deploy Bedrock sites out of the box:
-
-* [Trellis](https://github.com/roots/trellis)
-* [bedrock-capistrano](https://github.com/roots/bedrock-capistrano)
+I use a modified version of [bedrock-capistrano](https://github.com/roots/bedrock-capistrano) which is embeded in this repo so you only have to configure your capistrano environments at config/deploy.rb and config/deploy/* files
 
 Any other deployment method can be used as well with one requirement:
 
@@ -57,17 +51,8 @@ Any other deployment method can be used as well with one requirement:
 
 ## Documentation
 
-Bedrock documentation is available at [https://roots.io/bedrock/docs/](https://roots.io/bedrock/docs/).
+Bedrock original documentation is available at [https://roots.io/bedrock/docs/](https://roots.io/bedrock/docs/).
 
 ## Contributing
 
-Contributions are welcome from everyone. We have [contributing guidelines](CONTRIBUTING.md) to help you get started.
-
-## Community
-
-Keep track of development and community news.
-
-* Participate on the [Roots Discourse](https://discourse.roots.io/)
-* Follow [@rootswp on Twitter](https://twitter.com/rootswp)
-* Read and subscribe to the [Roots Blog](https://roots.io/blog/)
-* Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
+Contributions are welcome from everyone. Let's do some code together
