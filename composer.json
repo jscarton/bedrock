@@ -50,5 +50,10 @@
       "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
     ]
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "extra": {
+        "branch-alias": {
+            "dev-master": "1.6.4-dev"
+        }
+    }
 }
