@@ -50,5 +50,5 @@
       "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
     ]
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "dev"
 }
