@@ -1,8 +1,8 @@
-# [Bedrock](https://code.thegeeks.rocks/bedrock/)
+# [Bedrock](https://thegeeks.rocks/bedrock/)
 
 [![Build Status](https://travis-ci.org/roots/bedrock.svg)](https://travis-ci.org/roots/bedrock)
 
-This is a fork from [Bedrock](https://roots.io/bedrock/) with some little improvements from me.
+This is a fork from [Bedrock from roots.io](https://roots.io/bedrock/) with some little improvements from me.
 
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
@@ -17,8 +17,6 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 * Autoloader for mu-plugins (use regular plugins as mu-plugins)
 * Enhanced security (separated web root and secure passwords with [wp-password-bcrypt](https://github.com/roots/wp-password-bcrypt))
 
-See a complete working example in the [jscarton's geekspress repo](https://github.com/jscarton/geekspress).
-
 ## Requirements
 
 * PHP >= 5.5
@@ -26,7 +24,7 @@ See a complete working example in the [jscarton's geekspress repo](https://githu
 
 ## Installation
 
-1. Create a new project - `composer create-project jscarton/bedrock`
+1. Create a new project - `composer create-project jscarton/bedrock=dev-master`
 2. Copy `.env.example` to `.env` and update environment variables:
   * `DB_NAME` - Database name
   * `DB_USER` - Database user
