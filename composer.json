@@ -1,27 +1,21 @@
 {
-  "name": "roots/bedrock",
+  "name": "jscarton/bedrock",
   "type": "project",
   "license": "MIT",
-  "description": "A modern WordPress stack",
-  "homepage": "https://roots.io/bedrock/",
+  "description": "A modern WordPress stack based on roots.io bedrock project",
+  "homepage": "https://github.com/jscarton/bedrock/",
   "authors": [
     {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
+      "name": "Juan Scarton",
+      "email": "jscarton@gmail.com",
+      "homepage": "https://github.com/jscarton"
     }
   ],
   "keywords": [
-    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
+    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp","jscarton"
   ],
   "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
+    "issues": "https://github.com/jscarton/bedrock/issues"
   },
   "config": {
     "preferred-install": "dist"
@@ -36,7 +30,7 @@
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.5.1",
+    "johnpbloch/wordpress": "4.5.3",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0"
   },
